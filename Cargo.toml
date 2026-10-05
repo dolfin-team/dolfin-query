@@ -1,0 +1,17 @@
+[package]
+name = "dolfin-query"
+version = "0.1.10"
+edition = "2024"
+license = "MIT"
+keywords = ["semantic-web", "ontology", "sparql", "dolfin", "knowledge-graph"]
+categories = ["compilers", "parsing"]
+description = "Translate Dolfin query definitions to SPARQL 1.1 SELECT"
+repository = "https://github.com/dolfin-team/dolfin-query"
+readme = "README.md"
+
+[dependencies]
+rowl = { version = "0.1.10", default-features = false }
+dolfin-datetime = { version = "0.1.9", default-features = false }
+
+[dev-dependencies]
+rowl = { version = "0.1.10", default-features = false }
